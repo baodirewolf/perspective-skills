@@ -1,0 +1,19 @@
+# 忽略临时文件
+*.log
+.DS_Store
+Thumbs.db
+
+# 忽略编辑器文件
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 忽略压缩包（已发布的）
+*.tar.gz
+*.zip
+
+# 忽略敏感信息
+.env
+*.token
+.github_token
